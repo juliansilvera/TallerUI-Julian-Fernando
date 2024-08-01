@@ -183,6 +183,38 @@ nav ul li a {
     cursor: pointer;
 }
 
+/*=======================Video Section=======================*/
+
+.video-promo-container{
+    background-color: #4799cb;
+    height: 400px;
+    position: relative;
+
+}
+
+.video-promo{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+.video-promo-container::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px; /* Ajusta la altura del arco */
+    background-color: #4799cb;
+    border-top-left-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura */
+    border-top-right-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura */
+    position: absolute;
+    bottom: 100%; 
+    left: 0;
+}
+
+/*=======================End Video Section=======================*/
+
 footer {
     background-color: #464646;
     padding: 20px 0;
