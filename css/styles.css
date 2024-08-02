@@ -204,10 +204,10 @@ nav ul li a {
     content: "";
     display: block;
     width: 100%;
-    height: 100px; /* Ajusta la altura del arco */
+    height: 100px; /* Ajusta la altura del arco, ver despues si se quiere q sea mas alto */
     background-color: #4799cb;
-    border-top-left-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura */
-    border-top-right-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura */
+    border-top-left-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura desde la izquierda hasta le medio */
+    border-top-right-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura desde la derecha hasta el mid */
     position: absolute;
     bottom: 100%; 
     left: 0;
