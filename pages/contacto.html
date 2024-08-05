@@ -23,9 +23,9 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="../img/temando-logo.png" alt="Te mando"></a>
+                <a href="index.html"><img src="../img/temando-logo.png" alt="logo Te mando"></a>
             </div>
-            <nav>
+            <nav aria-label="Menú principal">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="./servicios.html">Servicios</a></li>
@@ -39,20 +39,6 @@
     </header>
 
     <main>
-        <!--<div class="hero">
-            <div class="overlay">
-                <div class="hero-content">
-                    <h2>Eficiencia y tecnología para tus envíos</h2>
-                    <div class="tracking">
-                        <input type="text" placeholder="Ingresa tu número de tracking">
-                        <button>Buscar</button>
-                    </div>
-                    <div class="cta-button">
-                        <a href="/pages/contacto.html"><button>No encuentro mi número</button></a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <section class="services">
             <div class="description-home">
@@ -73,51 +59,33 @@
                     </div>
                     <div class="col-md-6">
                         <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="juan@gmail.com" id="inputEmail4" required>
-                      </div>
-                    <div class="col-md-6">                        
-                        <label for="inputAddress" class="form-label">Direccion</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Coronel Arroyo 521"
-                            required>
-                    </div>
-                    <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2"
-                            placeholder="Apartment, studio, or floor">
+                        <input type="email" class="form-control" placeholder="juan@gmail.com" id="inputEmail4"
+                            aria-label="Email" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="form-label">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label">State</label>
-                        <select id="inputState" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <label for="inputZip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <label for="inputAddress" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Coronel Arroyo 521"
+                            aria-label="Address" required>
                     </div>
                     <div class="col-12">
+                        <label for="exampleFormControlTextarea1">Envianos tu mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required
+                            maxlength="500"></textarea>
 
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
                 </form>
             </div>
         </section>
 
         <section class="services video-promo-container">
-
         </section>
 
     </main>
 
     <footer>
-
         <div class="footer-container">
             <div class="footer-logo">
                 <a href="index.html"><img src="/img/temando-logo.png" alt="Te mando"></a>
@@ -137,11 +105,9 @@
                 <a href="https://www.instagram.com"><img src="/img/icon-ig.png" alt="Instagram"></a>
             </div>
         </div>
-
         <div class="footer-bottom">
             <p>&copy; 2024 Te mando - Todos los derechos reservados</p>
         </div>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

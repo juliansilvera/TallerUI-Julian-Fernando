@@ -83,6 +83,9 @@ nav ul li a {
     margin-bottom: 200px;
 }
 
+form textarea {
+    resize: none;
+}
 
 
 /*=======================Video Section=======================*/
