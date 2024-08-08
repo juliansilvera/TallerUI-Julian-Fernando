@@ -15,21 +15,44 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="../index.html"><img src="../img/temando-logo.png" alt="Logo de Te Mando"></a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a href="#"><img src="../img/temando-logo.png" alt="Logo Te mando"></a>
+                </div>
+                <button class="navbar-toggler custom-toggler custom-border" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/somos.html">Conócenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/rastrear.html">Rastrear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/crear-envio.html">Crear envío</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-            <nav role="navigation" aria-label="Main Navigation">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./somos.html">Conócenos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./rastrear.html">Rastrear</a></li>
-                    <li><a href="./crear-envio.html">Crear envío</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
 
     <main>
