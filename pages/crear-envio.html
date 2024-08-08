@@ -85,71 +85,115 @@
                     <div class="row g-3">
                         <div class="col">
                             <label for="inputAddressSender" class="form-label">Direccion Remitente</label>
-                            <input type="text" class="form-control" id="inputAddressSender" placeholder="Gral Flores 843"
-                                required>
+                            <input type="text" class="form-control" id="inputAddressSender"
+                                placeholder="Gral Flores 843" required>
                         </div>
                     </div>
                     <div class="row g-3">
                         <div class="col">
                             <label for="inputNameAddressee" class="form-label">Nombre Destinatario</label>
-                            <input type="text" class="form-control" placeholder="Alberto" aria-label="First name Addressee" required>
+                            <input type="text" class="form-control" placeholder="Alberto"
+                                aria-label="First name Addressee" required>
                         </div>
                         <div class="col">
                             <label for="inputLastNameAddressee" class="form-label">Apellido Destinatario</label>
-                            <input type="text" class="form-control" placeholder="Recibe" aria-label="Last name Addressee" required>
+                            <input type="text" class="form-control" placeholder="Recibe"
+                                aria-label="Last name Addressee" required>
                         </div>
                     </div>
                     <div class="row g-3">
                         <div class="col-12">
                             <label for="inputAddressAddressee" class="form-label">Direccion Destinatario</label>
-                            <input type="text" class="form-control" id="inputAddressSender" aria-label="Adress Addressee" placeholder="Coronel Arroyo 528"
-                                required>
+                            <input type="text" class="form-control" id="inputAddressSender"
+                                aria-label="Adress Addressee" placeholder="Coronel Arroyo 528" required>
                         </div>
                     </div>
                     <div class="row g-3">
                         <div class="col-12">
                             <label for="inputCity" class="form-label">Ciudad</label>
                             <input type="text" class="form-control" id="inputCity" required>
-                        </div>       
+                        </div>
                     </div>
-                    
+
                     <div class="row g-3">
                         <div class="col">
-                            <label for="inputNameSender" class="form-label">Dimensiones del paquete</label>
+                            <label class="form-label">Dimensiones del paquete</label>
                         </div>
                     </div>
                     <div class="row g-3">
                         <div class="col">
                             <label for="inputNameSender" class="form-label">Largo (cm)</label>
-                            <input type="number" class="form-control" placeholder="90 cms" aria-label="Largo paquete" required min="1" max="5000">
+                            <input type="number" class="form-control" placeholder="90 cms" aria-label="Largo paquete"
+                                required min="1" max="5000">
                         </div>
                         <div class="col">
                             <label for="inputLastNameSender" class="form-label">Ancho (cm)</label>
-                            <input type="number" class="form-control" placeholder="50 cms" aria-label="Ancho paquete" required min="1" max="5000">
+                            <input type="number" class="form-control" placeholder="50 cms" aria-label="Ancho paquete"
+                                required min="1" max="5000">
                         </div>
                         <div class="col">
                             <label for="inputLastNameSender" class="form-label">Alto (cm)</label>
-                            <input type="number" class="form-control" placeholder="75 cms" aria-label="Alto paquete" required min="1" max="5000">
+                            <input type="number" class="form-control" placeholder="75 cms" aria-label="Alto paquete"
+                                required min="1" max="5000">
                         </div>
                     </div>
 
                     <div class="row g-3">
                         <div class="col">
                             <label for="inputNameSender" class="form-label">Peso del paquete (gr)</label>
-                            <input type="number" class="form-control" placeholder="500 grs" aria-label="Peso paquete" required min="1" max="500000">
+                            <input type="number" class="form-control" placeholder="500 grs" aria-label="Peso paquete"
+                                required min="1" max="500000">
                         </div>
                     </div>
-                    
                     <div class="row g-3">
-                        <div class="col-12">
+                        <div class="col">
+                            <label class="form-label">Tipo de Envio</label>
+
+                        </div>
+                        <div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Normal
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Urgente
                                 </label>
                             </div>
                         </div>
                     </div>
+
+                    <div>
+                        <div class="col">
+                            <label class="form-label">Metodo de Pago</label>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Tarjeta de credito
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Paypal
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Transferencia Bancaria
+                            </label>
+                        </div>
+                    </div>
+
+
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Crear envio</button>
                     </div>
