@@ -97,35 +97,33 @@ header .container {
     font-size: 30px;
 }
 
+.search-bar-container {
+    margin-bottom: 100px;
+}
+
+.container .search-input {
+    border: 2px solid #ced4da; 
+    
+}
+
 .form-label {
     font-family: 'Roboto Slab', serif; /* Fuente con un poquito mas de contraste */
     font-weight: 300;
 
 }
 
-.form-control {
-    background-color: #ffffff; /* Fondo blanco */
-    color: #212529; /* Texto oscuro */
-    border: 1px solid #ced4da; /* Borde de los inputs con un poquito mas de contraste */
-}
 
-.btn-primary {
-    background-color: #007bff; /* Azul oscuro para mejor contraste */
-    border-color: #007bff;
-}
 
-.btn-primary:hover {
-    background-color: #0056b3; /* Azul aún más oscuro en hover */
-    border-color: #0056b3;
-}
+
+
 
 .section-form-container {
+    visibility: hidden;
+    min-width: 450px;
     margin-bottom: 200px;
 }
 
-form textarea {
-    resize: none; /* Evitamos que el usuario pueda hacer resize del text-area para evitar comportamiento no deseado */
-}
+
 
 
 /*=======================Video Section=======================*/
@@ -149,7 +147,7 @@ form textarea {
     content: "";
     display: block;
     width: 100%;
-    height: 100px; /* Ajusta la altura del arco, ver despues si se quiere q sea mas alto */
+    height: 50px; /* Ajusta la altura del arco, ver despues si se quiere q sea mas alto */
     background-color: #4799cb;
     border-top-left-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura desde la izquierda hasta le medio */
     border-top-right-radius: 50% 100px; /* Ajusta el radio para controlar la curvatura desde la derecha hasta el mid */
