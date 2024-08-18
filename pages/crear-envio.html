@@ -60,8 +60,175 @@
             </div>
         </nav>
     </header>
-
     <main>
+
+        <section class="services">
+            <div class="description-home">
+                <h2 class="home-title">Crea tu envio</h2>
+            </div>
+
+        </section>
+        <section class="section-form-container">
+            <div class="container">
+                <form class="row g-3">
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputNameSender" class="form-label">Nombre Remitente</label>
+                            <input type="text" class="form-control" placeholder="Juan" aria-label="First name" required>
+                        </div>
+                        <div class="col">
+                            <label for="inputLastNameSender" class="form-label">Apellido Remitente</label>
+                            <input type="text" class="form-control" placeholder="Envia" aria-label="Last name" required>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputAddressSender" class="form-label">Direccion Remitente</label>
+                            <input type="text" class="form-control" id="inputAddressSender"
+                                placeholder="Gral Flores 843" required>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputNameAddressee" class="form-label">Nombre Destinatario</label>
+                            <input type="text" class="form-control" placeholder="Alberto"
+                                aria-label="First name Addressee" required>
+                        </div>
+                        <div class="col">
+                            <label for="inputLastNameAddressee" class="form-label">Apellido Destinatario</label>
+                            <input type="text" class="form-control" placeholder="Recibe"
+                                aria-label="Last name Addressee" required>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="inputAddressAddressee" class="form-label">Direccion Destinatario</label>
+                            <input type="text" class="form-control" id="inputAddressSender"
+                                aria-label="Adress Addressee" placeholder="Coronel Arroyo 528" required>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="inputCity" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" placeholder="Colonia" id="inputCity" required>
+                        </div>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col">
+                            <label class="form-label">Dimensiones del paquete</label>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputNameSender" class="form-label">Largo (cm)</label>
+                            <input type="number" class="form-control" placeholder="90 cms" aria-label="Largo paquete"
+                                required min="1" max="5000">
+                        </div>
+                        <div class="col">
+                            <label for="inputLastNameSender" class="form-label">Ancho (cm)</label>
+                            <input type="number" class="form-control" placeholder="50 cms" aria-label="Ancho paquete"
+                                required min="1" max="5000">
+                        </div>
+                        <div class="col">
+                            <label for="inputLastNameSender" class="form-label">Alto (cm)</label>
+                            <input type="number" class="form-control" placeholder="75 cms" aria-label="Alto paquete"
+                                required min="1" max="5000">
+                        </div>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputNameSender" class="form-label">Peso del paquete (gr)</label>
+                            <input type="number" class="form-control" placeholder="500 grs" aria-label="Peso paquete"
+                                required min="1" max="500000">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label class="form-label">Tipo de Envio:</label>
+
+                        </div>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Básico ($100)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Medio ($150)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Pro ($200)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Métodos de Pago:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer" value="bankTransfer">
+                            <label class="form-check-label d-flex align-items-center" for="bankTransfer">
+                                Transferencia bancaria
+                                <img src="../img/banco.png" alt="Transferencia Bancaria" class="ms-2" style="height: 24px;">
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" value="creditCard">
+                            <label class="form-check-label d-flex align-items-center" for="creditCard">
+                                Tarjeta de crédito
+                                <img src="../img/visa.png" alt="Visa" class="ms-2" style="height: 24px;">
+                                <img src="../img/mastercard.png" alt="MasterCard" class="ms-2" style="height: 24px;">
+                                <img src="../img/bbva.png" alt="BBVA" class="ms-2" style="height: 24px;">
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
+                            <label class="form-check-label d-flex align-items-center" for="paypal">
+                                PayPal
+                                <img src="../img/paypal.png" alt="PayPal" class="ms-2" style="height: 24px;">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="shipDate" class="form-label">Fecha de envío:</label>
+                        <input type="date" class="form-control" id="shipDate" name="shipDate" required>
+                    </div>
+
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Instrucciones Adicionales</h5>
+                            <p class="card-text">Por favor asegúrate de que todos los datos ingresados son correctos antes de enviar el formulario. Si tienes alguna duda o requieres asistencia, no dudes en contactarnos. Nuestro equipo está listo para ayudarte a asegurar que tu envío llegue a su destino de manera segura y eficiente.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-13">
+                        <button type="submit" class="btn btn-primary">Crear envio</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </section>
+
+        <section class="services video-promo-container">
+        </section>
+
+    </main>
+
+    <!-- <main>
 
         <section class="services">
             <div class="description-home">
@@ -204,7 +371,7 @@
         <section class="services video-promo-container">
         </section>
 
-    </main>
+    </main> -->
 
     <footer>
 
