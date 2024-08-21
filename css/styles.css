@@ -143,6 +143,7 @@ header .container {
     padding: 50px 0;
     text-align: center;
     justify-content: center;
+    
 }
 
 .services-grid {
@@ -205,12 +206,17 @@ header .container {
     cursor: pointer;
 }
 
+.services-description {
+    margin-bottom: 50px;
+}
+
 /*=======================Video Section=======================*/
 
 .video-promo-container{
     background-color: #4799cb;
     height: 400px;
     position: relative;
+    
 
 }
 

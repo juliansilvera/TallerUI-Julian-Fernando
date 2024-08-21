@@ -2,7 +2,11 @@ let searchButton = document.getElementById('search-shipment-button');
 
 searchButton.addEventListener('click', function(event) {
     event.preventDefault(); 
-    showTrackShipmentContainer();
+    input = document.getElementById('code-shipment').value;
+    if(input.length == 6) {
+        showTrackShipmentContainer();
+    }
+    
 });
 
 function showTrackShipmentContainer(){
