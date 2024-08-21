@@ -154,30 +154,24 @@
                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
                                     id="flexRadioDefault1" checked>
                                 <label class="form-check-label" for="flexRadioDefault1">
-                                    Básico ($100)
+                                    Normal
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
                                     id="flexRadioDefault2">
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                    Medio ($150)
+                                    Urgente
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    Pro ($200)
-                                </label>
-                            </div>
+                            
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Métodos de Pago:</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer" value="bankTransfer">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer" value="bankTransfer" checked>
                             <label class="form-check-label d-flex align-items-center" for="bankTransfer">
                                 Transferencia bancaria
                                 <img src="../img/banco.png" alt="Transferencia Bancaria" class="ms-2" style="height: 24px;">
@@ -187,7 +181,7 @@
                             <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" value="creditCard">
                             <label class="form-check-label d-flex align-items-center" for="creditCard">
                                 Tarjeta de crédito
-                                <img src="../img/visa.png" alt="Visa" class="ms-2" style="height: 24px;">
+                                <img src="../img/visa.jpg" alt="Visa" class="ms-2" style="height: 24px;">
                                 <img src="../img/mastercard.png" alt="MasterCard" class="ms-2" style="height: 24px;">
                                 <img src="../img/bbva.png" alt="BBVA" class="ms-2" style="height: 24px;">
                             </label>
@@ -205,13 +199,10 @@
                         <label for="shipDate" class="form-label">Fecha de envío:</label>
                         <input type="date" class="form-control" id="shipDate" name="shipDate" required>
                     </div>
-
-                    <div class="card custom-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Instrucciones Adicionales</h5>
-                            <p class="card-text">Por favor asegúrate de que todos los datos ingresados son correctos antes de enviar el formulario. Si tienes alguna duda o requieres asistencia, no dudes en contactarnos. Nuestro equipo está listo para ayudarte a asegurar que tu envío llegue a su destino de manera segura y eficiente.</p>
-                        </div>
-                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Comentarios adicionales</label>
+                    </div>                   
 
                     <div class="col-13">
                         <button type="submit" class="btn btn-primary">Crear envio</button>

@@ -114,11 +114,23 @@ input[type="date"] {
     color: #495057;
 }
 
-textarea {
+form textarea {
     resize: none;
     border: 1px solid #ced4da;
     border-radius: .25rem;
+    height: 100px;
 }
+
+#floatingTextarea2 {
+    height: 100px;
+}
+
+.form-label {
+    font-family: 'Roboto Slab', serif; /* Fuente con un poquito mas de contraste */
+    font-weight: 300;
+
+}
+
 
 .custom-card {
     max-width: 10px;
