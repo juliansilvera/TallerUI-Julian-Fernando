@@ -67,7 +67,7 @@ header .container {
 .hero {
     position: relative;
     height: 500px;
-    background: url('/img/back.png') center center/cover no-repeat;
+    background: url('../img/back.png') center center/cover no-repeat;
 }
 
 .overlay {
