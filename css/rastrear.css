@@ -42,7 +42,7 @@ header .container {
 }
 
 .navbar-nav {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .navbar .custom-border {
@@ -233,7 +233,7 @@ footer {
 }
 
 /* Media queries telefonos */
-@media (max-width: 950px) {
+@media (max-width: 996px) {
     header .container, .footer-container {
         width: 80%;
     }

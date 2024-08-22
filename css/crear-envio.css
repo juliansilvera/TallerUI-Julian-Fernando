@@ -42,7 +42,7 @@ header .container {
 }
 
 .navbar-nav {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .navbar .custom-border {
@@ -150,6 +150,10 @@ form textarea {
 
 .card-text {
     color: #343a40;
+}
+
+.ms-2 {
+    height: 24px;
 }
 
 .col-13 {
@@ -267,7 +271,7 @@ footer {
 }
 
 /* Media queries telefonos */
-@media (max-width: 950px) {
+@media (max-width: 996px) {
     header .container, .footer-container {
         width: 80%;
     }

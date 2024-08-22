@@ -2,7 +2,9 @@ let searchButton = document.getElementById('search-shipment-button');
 
 searchButton.addEventListener('click', function(event) {
     event.preventDefault(); 
+
     input = document.getElementById('code-shipment').value;
+    
     if(input.length == 6) {
         showTrackShipmentContainer();
     }
